@@ -1,3 +1,6 @@
+// This is a File with reference material to the basic concepts of presented in the first chapters of most books.
+// This is tailored for personal use and convenience.
+
 CONTINUE AT PAGE 60 OF HFC...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // LOOPS
