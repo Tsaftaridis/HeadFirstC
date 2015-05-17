@@ -1,5 +1,6 @@
 // This is a File with reference material to the basic concepts of presented in the first chapters of most books.
-// This is tailored for personal use and convenience.
+// This is tailored for personal use and convenience. 
+// ! THIS WILL OBVIOUSLY NOT COMPILE AND/OR RUN !
 
 CONTINUE AT PAGE 60 OF HFC...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13,14 +14,11 @@ switch (val)
 	case 1:
 		win();
 		break;
-	
 	case 2:
 		lose();
-	
 	case 3:
 		game_over();
 		break;
-		
 	default
 		do_nothing;
 }
@@ -58,17 +56,18 @@ char name[size];
 void fortune_cookie(char msg[])
 // Creates 
 char quote[] = "Cookies make you fat.";
-// Differences between array variables and pointers: All the operations below are valid:
+// Differences between array variables and pointers.
 char s[] = "How big is it?"
 char* t = s;
 sizeof(s) == 15; // Returns true
 sizeof(t) == 4; // Returns true. Sometimes returns true for 8.
 // T is a separate variable than the string it points to, so it has a different address.
 // S is not a separate variable, but an array, so it has the same address as the first 
-// character of the array.
+// character of the array
+// VALID:
 &s == s;
 &t != t;
-// So, you cannot do the following without a compiler error:
+// So, you cannot do the following without a compiler error. INVALID:
 s = t;
 // SOS: the t pointer doesn't know how big the s array is (pointer decay).
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
