@@ -60,7 +60,7 @@ char quote[] = "Cookies make you fat.";
 char s[] = "How big is it?"
 char* t = s;
 sizeof(s) == 15; // Returns true
-sizeof(t) == 4; // Returns true. Sometimes returns true for 8.
+sizeof(t) == 4; // Returns true. Sometimes returns true for 8, depending on the system.
 // T is a separate variable than the string it points to, so it has a different address.
 // S is not a separate variable, but an array, so it has the same address as the first 
 // character of the array
