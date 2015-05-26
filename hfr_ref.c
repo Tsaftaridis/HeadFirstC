@@ -70,6 +70,29 @@ sizeof(t) == 4; // Returns true. Sometimes returns true for 8, depending on the 
 // So, you cannot do the following without a compiler error. INVALID:
 s = t;
 // SOS: the t pointer doesn't know how big the s array is (pointer decay).
+
+
+// 2D strings : creates an unspecified number of 80 chars long (\n included) strings.
+char tracks[][80] = ....;
+// accessing a track:
+char tracks[80] =...;
+// accessing a character
+char tracks[80][2] = ...;
+
+
+// Finds the location of a character inside a string
+strchr();
+// Compares two strings
+strcmp();
+// Finds the location of a string inside another string
+if strstr("dysfunctional", "fun");
+	puts("I found the fun in disfunctional");
+// Copy one string to another
+strcpy();
+// gets the length of a string
+strlen();
+// Concatenates two strings
+strcat();
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // STANDARD OUTPUT/INPUT
 puts("Your Message Here");
