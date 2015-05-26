@@ -94,6 +94,41 @@ a = (long)p // Outside of the declaration you do not use a star to refer to a po
 p -> hexadecimal;
 %d -> decimal;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// DATA INPUT/OUTPUT
+// STANDARD OUTPUT/INPUT
+puts("Your Message Here");
+scanf("%format", variable);
+// Basic scanf
+
+// "name" is an array or a pointer. "scanf" just updates the contents of name
+char name[40];
+char surname[80];
+//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+// Not specifying the number of characters scanned may cause crashes if input > expected.
+//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+scanf("%39s %79s", name, surname);
+// That is why when not using an array, you need to pass scanf the address of the variable
+int age;
+scanf("%i", &age);
+
+// Basic fgets
+
+char food[5];
+char* drink;
+// Takes: pointer to buffer/string, the maximum size '\0' included, data stream
+// SOS: if the pointer is not an array indicator, give it an EXPLICIT SIZE!!!
+fgets(food, sizeof(food), stdin);
+fgets(drink, 5, stdin);
+// INVALID:
+fgets(drink, sizeof(drink), stdin);
+// 'Cause sizeof(drink) == 8 or 4 (see P-O-I-N-T-E-R-S)
+
+//-------------------------------------------------fgets vs scanf
+? LIMITS THE NUMBER OF INPUTED CHARS(MANDATORY):	YES		NO
+? MORE THAN ONE FIELD:								NO		YES
+? SPACES IN STRING:									YES		NO
+// SCANF CANNOT READ SPACES IN A %S INPUT BASIS!!!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // TRIVIA
 // sizeof is not a function. It is a set of commands run by the compiler. 
 // That means the performance of the code is not affected by the number of sizeofs you use.
