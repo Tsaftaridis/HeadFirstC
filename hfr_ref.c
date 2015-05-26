@@ -112,6 +112,23 @@ int value stored = *address_of_x;
 
 // Converting pointers to numbers:
 a = (long)p // Outside of the declaration you do not use a star to refer to a pointer. 
+
+// Pointer arithmetic p.61
+// The first line gets the first character.
+// The second line gets the third character.
+doses[0] == *doses;
+doses[2] == *(doses + 2);
+
+// SOS: JUST HOW IT IS. YOU CAN USE THE INDEX OUTSIDE THE BRACKETS AND THE POINTER INSIDE
+// Just Because...that's how c works
+doses[3] == *(doses + 3) == *(3 + doses) == 3[doses];
+
+char masked_raider[] = "Alive!"
+char* jimmy = masked_raider;
+jimmy == "Alive!"
+
+// Pointer arrays can be used to define string literals lists fast: SOS see S_T_R_I_N_G_S
+char* names_for_cat[] = {"Litsa", "Max", "Pakis"};
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // FORMATS ( SYNTAX NONSENSICAL )
 p -> hexadecimal;
