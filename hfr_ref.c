@@ -34,9 +34,9 @@ while(feeling_hungry)
 {
 	eat_cake;
 	
+	
 	if (feeling_queasy)
 		break;
-		
 	drink_coffe;	
 }
 
@@ -67,6 +67,7 @@ sizeof(t) == 4; // Returns true. Sometimes returns true for 8, depending on the 
 // VALID:
 &s == s;
 &t != t;
+
 // So, you cannot do the following without a compiler error. INVALID:
 s = t;
 // SOS: the t pointer doesn't know how big the s array is (pointer decay).
@@ -93,7 +94,7 @@ strcpy();
 strlen();
 // Concatenates two strings
 strcat();
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // STANDARD OUTPUT/INPUT
 puts("Your Message Here");
 scanf("%format", variable);
