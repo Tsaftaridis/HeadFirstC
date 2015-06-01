@@ -12,7 +12,7 @@ CONTINUE AT PAGE 60 OF HFC...>>>>....>>>>>
 switch (val)
 {
 	case 1:
-		win();
+		win(); /////////////
 		break;
 	case 2:
 		lose();
