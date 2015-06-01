@@ -2,7 +2,7 @@
 // This is tailored for personal use and convenience. 
 // ! THIS WILL OBVIOUSLY NOT COMPILE AND/OR RUN !
 
-CONTINUE AT PAGE 60 OF HFC...
+CONTINUE AT PAGE 60 OF HFC...>>>>....>>>>>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // LOOPS
 
