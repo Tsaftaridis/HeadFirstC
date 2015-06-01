@@ -3,7 +3,7 @@
 // ! THIS WILL OBVIOUSLY NOT COMPILE AND/OR RUN !
 
 CONTINUE AT PAGE 60 OF HFC...>>>>....>>>>>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // LOOPS
 
 // switch usage. Can use fall through logic (e.g. 2-3). CRITICAL: Break statements. Also 
